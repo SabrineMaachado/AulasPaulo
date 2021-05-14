@@ -3,7 +3,7 @@
 
 body{
 font-family: arial, helvetica, sans-serif;
-font-size: 12px;
+font-size: 24px;
 }
 
 .menu{
@@ -20,7 +20,12 @@ float:left;
     }
 
 /* Estilizar itens */
-.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
 
 .menu li a:hover{
 background:#333;
@@ -37,7 +42,8 @@ text-shadow:0px 0px 5px #fff;
     display:none;
     }
 
-.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li:hover ul, .menu li.over ul{
+    display:block;}
 
 /* esconder menu */
 .menu li ul li{
@@ -46,6 +52,31 @@ text-shadow:0px 0px 5px #fff;
     width:150px;
     }
 
+.divisao1{
 
+    background-color:ghostwhite;
+    border-radius: 10px;
+    border-color: darkred;
+    box-shadow: dimgray;
+    padding: 24px;
+    margin: 10px;
+}
+.divisao2{
 
+    background-color: darkgray;
+    border-radius: 10px;
+    border-color: darkred;
+    box-shadow: dimgray;
+    padding: 24px;
+    margin: 10px;
+}
 
+.flexbox{
+    display: flex;
+    background-color: darkgoldenrod;
+    /* display: flexbox;
+    justify-content: center;  */
+    flex-direction: row;
+    justify-content: space-between;
+
+}
